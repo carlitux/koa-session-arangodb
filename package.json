@@ -23,5 +23,8 @@
   "homepage": "https://github.com/linkux-it/koa-session-arango#readme",
   "dependencies": {
     "arangojs": "^4.1.0"
+  },
+  "peerDependencies": {
+    "koa-generic-session": "^1.10.0"
   }
 }
