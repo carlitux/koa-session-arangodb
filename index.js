@@ -79,6 +79,8 @@ export default function storage ({store, key='koa:sess', ...cookies}=opts) {
     } catch (e) {
       await collection.create(store.properties);
     }
+
+    await collection.createHashIndex('expireAt');
   }) ();
 
   return async function (next) {
