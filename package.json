@@ -1,0 +1,27 @@
+{
+  "name": "koa-session-arango",
+  "version": "1.0.0",
+  "description": "Arango Key-Pair Session storage",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linkux-it/koa-session-arango.git"
+  },
+  "keywords": [
+    "koajs",
+    "arango",
+    "session"
+  ],
+  "author": "Luis Carlos Cruz Carballo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/linkux-it/koa-session-arango/issues"
+  },
+  "homepage": "https://github.com/linkux-it/koa-session-arango#readme",
+  "dependencies": {
+    "arangojs": "^4.1.0"
+  }
+}
